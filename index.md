@@ -80,14 +80,16 @@ class StringServer {
 >The screenshot above shows two new messages being saved to the server. The methods being used include the handleRequest and the printMessages methods. The handleRequest method takes in the url and splits the information into two sections, an "add-message" text and the message itself, which is added to an array that stores all of the messages the user types into the URL. The printMessages method takes the message and outputs a string that is printed to the website. The text "next line" is added to the fourth spot on the array, and lastly the text "this is the fifth index" is added to the fifth index.
 
 __Bugs from Lab 3__ 
->
-——————————————————————————————————————————————————————————————————
-![screenshot](image1.png)
-——————————————————————————————————————————————————————————————————
-
-__Something I Learned In The Past Two Weeks__
-> 
 
 ——————————————————————————————————————————————————————————————————
-![screenshot](image1.png)
+* A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+* An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+* The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+* The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+——————————————————————————————————————————————————————————————————
+
+__Something New__
+
+——————————————————————————————————————————————————————————————————
+* In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
 ——————————————————————————————————————————————————————————————————
