@@ -89,10 +89,13 @@ __Bugs from Lab 3__
 ![screenshot](junit1.png)
 >—————————————————————————————————————————————————————————————————————
 * An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
-``` working code```
-* The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+``` working code ```
 >—————————————————————————————————————————————————————————————————————
 ![screenshot](junit2.png)
+>—————————————————————————————————————————————————————————————————————
+* The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+>—————————————————————————————————————————————————————————————————————
+![screenshot](junit3.png)
 >—————————————————————————————————————————————————————————————————————
 * The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 >—————————————————————————————————————————————————————————————————————
