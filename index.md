@@ -3,7 +3,7 @@ Week 1 Lab Report
 __String Server__
 > The String Server checks if the url states "/add-message?s=" and saves the message and displays them in order.
 
->```
+```
 import java.io.IOException;
 import java.net.URI;
 
@@ -67,7 +67,7 @@ class StringServer {
         Server.start(port, new Handler());
     }
 }
->```
+```
 
 
 ——————————————————————————————————————————————————————————————————
