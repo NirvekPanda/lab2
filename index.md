@@ -77,18 +77,20 @@ class StringServer {
 >—————————————————————————————————————————————————————————————————————
 ![screenshot](image2.png)
 >—————————————————————————————————————————————————————————————————————
->The screenshot above shows two new messages being saved to the server. The methods being used include the handleRequest and the printMessages methods. The handleRequest method takes in the url and splits the information into two sections, an "add-message" text and the message itself, which is added to an array that stores all of the messages the user types into the URL. The printMessages method takes the message and outputs a string that is printed to the website. The text "next line" is added to the fourth spot on the array, and lastly the text "this is the fifth index" is added to the fifth index.
+>The screenshot above shows two new messages being saved to the server. The methods being used include the handleRequest and the printMessages methods. The handleRequest method takes in the url and splits the information into two sections, an "add-message" text and the message itself, which is added to an array that stores all of the messages the user types into the URL. The printMessages method takes the message and outputs a string that is printed to the website. The text "next line" is added to the fourth spot on the array, and lastly the text "this is the fifth index" is added to the fifth index of the messages array.
 >—————————————————————————————————————————————————————————————————————
 
 __Bugs from Lab 3__ 
 
 >—————————————————————————————————————————————————————————————————————
 * A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+>—————————————————————————————————————————————————————————————————————
 ``` failure inducing code ```
 >—————————————————————————————————————————————————————————————————————
 ![screenshot](junit1.png)
 >—————————————————————————————————————————————————————————————————————
 * An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+>—————————————————————————————————————————————————————————————————————
 ``` working code ```
 >—————————————————————————————————————————————————————————————————————
 ![screenshot](junit2.png)
@@ -101,7 +103,7 @@ __Bugs from Lab 3__
 >—————————————————————————————————————————————————————————————————————
 ``` before code ```
 >—————————————————————————————————————————————————————————————————————
-``` after code  ```
+``` after code ```
 >—————————————————————————————————————————————————————————————————————
 
 __Something New I Learned__
