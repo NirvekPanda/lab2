@@ -70,26 +70,41 @@ class StringServer {
 ```
 
 
-——————————————————————————————————————————————————————————————————
+>—————————————————————————————————————————————————————————————————————
 ![screenshot](image1.png)
-——————————————————————————————————————————————————————————————————
+>—————————————————————————————————————————————————————————————————————
 >The screenshot above shows three messages being saved to the server. The methods being used include the handleRequest and the printMessages methods. The handleRequest method takes in the url and splits the information into two sections, an "add-message" text and the message itself, which is added to an array that stores all of the messages the user types into the URL. The printMessages method takes the message and outputs a string that is printed to the website. The text "Message1" is added to the first spot on the array, the text "second message" is added to the second spot on the array, and the text "third line"  is added to the third index on the array.
-——————————————————————————————————————————————————————————————————
+>—————————————————————————————————————————————————————————————————————
 ![screenshot](image2.png)
-——————————————————————————————————————————————————————————————————
+>—————————————————————————————————————————————————————————————————————
 >The screenshot above shows two new messages being saved to the server. The methods being used include the handleRequest and the printMessages methods. The handleRequest method takes in the url and splits the information into two sections, an "add-message" text and the message itself, which is added to an array that stores all of the messages the user types into the URL. The printMessages method takes the message and outputs a string that is printed to the website. The text "next line" is added to the fourth spot on the array, and lastly the text "this is the fifth index" is added to the fifth index.
+>—————————————————————————————————————————————————————————————————————
 
 __Bugs from Lab 3__ 
 
-——————————————————————————————————————————————————————————————————
+>—————————————————————————————————————————————————————————————————————
 * A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+``` failure inducing code ```
+>—————————————————————————————————————————————————————————————————————
+![screenshot](junit1.png)
+>—————————————————————————————————————————————————————————————————————
 * An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+``` working code```
 * The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+>—————————————————————————————————————————————————————————————————————
+![screenshot](junit2.png)
+>—————————————————————————————————————————————————————————————————————
 * The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
-——————————————————————————————————————————————————————————————————
+>—————————————————————————————————————————————————————————————————————
+``` before code ```
+>—————————————————————————————————————————————————————————————————————
+``` after code  ```
+>—————————————————————————————————————————————————————————————————————
 
-__Something New__
+__Something New I Learned__
 
-——————————————————————————————————————————————————————————————————
-* In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
-——————————————————————————————————————————————————————————————————
+>—————————————————————————————————————————————————————————————————————
+* From the lab we did in week two, I learned how to create and run a locally hosted web server.
+* Additionaly, I learned how to give functionallity web server by creating a program and running with my server.
+* Moreover, I learned how to create a pages server on github that allows me to publicly access the site.
+>—————————————————————————————————————————————————————————————————————
